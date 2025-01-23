@@ -7,7 +7,7 @@
 ### Installation
 
 ```sh
-npm install -g @sourcegraph/scip-typescript
+npm install -g @getrover/scip-typescript
 ```
 
 Currently, Node v18, Node v20 are supported. <!-- Source of truth: .github/workflows/ci.yml -->
@@ -58,7 +58,7 @@ scip-typescript index --pnpm-workspaces
 Add the following run steps to your CI pipeline:
 
 ```sh
-npm install -g @sourcegraph/scip-typescript @sourcegraph/src
+npm install -g @getrover/scip-typescript @sourcegraph/src
 npm install # or yarn install
 scip-typescript index
 # Upload index with any necessary tokens (shown here using GitHub workflow syntax)
@@ -114,7 +114,7 @@ Follow the steps below to migrate from lsif-node to scip-typescript:
 
 - Replace usages of the `lsif-tsc -p ARGUMENTS` command with `scip-typescript index ARGUMENTS`.
 - Upgrade to the latest version of the `src` command-line interface, which you
-  can install via `yarn global add @sourcegraph/src`. It’s okay if the version
+  can install via `yarn global add @getrover/src`. It’s okay if the version
   of your `src` command-line interface does not match the version of your
   Sourcegraph instance.
 

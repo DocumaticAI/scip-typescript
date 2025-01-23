@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "@sourcegraph/scip-typescript",
+      "name": "@getrover/scip-typescript",
       "dependencies": {
         "commander": "^12.1.0",
         "google-protobuf": "^3.21.4",
