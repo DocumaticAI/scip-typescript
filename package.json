@@ -5,6 +5,9 @@
   "publisher": "getrover",
   "bin": "dist/src/main.js",
   "main": "./dist/src/main.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prettier": "prettier --write --list-different '**/*.{ts,js?(on),md,yml}'",
     "prettier-check": "prettier --check '**/*.{ts,js?(on),md,yml}'",
@@ -17,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/versecafe/scip-typescript.git"
+    "url": "git+https://github.com/documaticai/scip-typescript.git"
   },
   "keywords": [
     "scip",
@@ -29,9 +32,9 @@
   "author": "Code Intelligence at Sourcegraph",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/versecafe/scip-typescript/issues"
+    "url": "https://github.com/documaticai/scip-typescript/issues"
   },
-  "homepage": "https://github.com/versecafe/scip-typescript#readme",
+  "homepage": "https://github.com/documaticai/scip-typescript#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "google-protobuf": "^3.21.4",
